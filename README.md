@@ -1,9 +1,9 @@
-
 <div align="center">
+
 # lfsr-fibo
 
-	![Crates.io Total Downloads](https://img.shields.io/crates/d/lfsr-fibo)
-	![Crates.io Version](https://img.shields.io/crates/v/lfsr-fibo)
+![Crates.io Total Downloads](https://img.shields.io/crates/d/lfsr-fibo)
+![Crates.io Version](https://img.shields.io/crates/v/lfsr-fibo)
 
 Efficient pure Rust implementation of LFSR in fibonacci representation.
 
