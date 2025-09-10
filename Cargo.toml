@@ -6,6 +6,6 @@ authors = ["acmo0"]
 license = "MIT OR Apache-2.0"
 description = "Efficient pure Rust implemention of LFSR using Fibonacci representation."
 readme = "README.md"
-repository = ""
+repository = "https://github.com/acmo0/lfsr-fibo.git"
 
 [dependencies]
