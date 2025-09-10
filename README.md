@@ -10,6 +10,9 @@ Efficient pure Rust implementation of LFSR in fibonacci representation.
 Please see installation details and doc on [crates.io](https://crates.io/crates/lfsr-fibo). 
 
 </div>
+
+***
+
 ## Usage
 
 This is an example of a basic usage. Let say that you want to generate 256 bits from the LFSR represented by the polynomial `x^11 + x^6 + x^3 + 1` with an initial state of `10101101110`, then you can use this crate in the folowing way :
