@@ -17,7 +17,7 @@ impl Lfsr {
     /// then you could get that LFSR using :
     ///
     /// ```
-    /// let lfsr = LFSR::new(vec![19, 13, 2]);
+    /// let lfsr = Lfsr::new(vec![19, 13, 2]);
     /// ```
     pub fn new(taps: Vec<u8>) -> Lfsr {
         Lfsr {
@@ -33,7 +33,7 @@ impl Lfsr {
     /// Let say that your key is [0, 1, 1, 0, 0, 0, 1], then :
     ///
     /// ```
-    /// let mut lfsr = LFSR::new(vec![7, 5, 2]);
+    /// let mut lfsr = Lfsr::new(vec![7, 5, 2]);
     /// let key: VecDeque<u8> = VecDeque::from([0, 1, 1, 0, 0, 0, 1]);
     /// 
     /// lfsr.set_key(key);
@@ -54,7 +54,7 @@ impl Lfsr {
      /// Let say that your key is [0, 1, 1, 0, 0, 0, 1], then :
     ///
     /// ```
-    /// let mut lfsr = LFSR::new(vec![7, 5, 2]);
+    /// let mut lfsr = Lfsr::new(vec![7, 5, 2]);
     /// let key: VecDeque<u8> = VecDeque::from([0, 1, 1, 0, 0, 0, 1]);
     /// 
     /// lfsr.set_key(key);
