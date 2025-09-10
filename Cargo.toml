@@ -3,5 +3,7 @@ name = "lfsr"
 version = "0.1.0"
 edition = "2024"
 authors = ["acmo0"]
+license = "MIT OR Apache-2.0"
+description = "Efficient pure Rust implemention of LFSR using Fibonacci representation"
 
 [dependencies]
